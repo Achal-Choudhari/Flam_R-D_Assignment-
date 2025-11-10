@@ -1,0 +1,7 @@
+Linear regression results:
+  slope s = 0.5261566552753718
+  intercept b = 14.216877080492596
+  θ = 0.484353 rad (27.751400 °)
+  X = 52.803899 
+Estimated M =  0.02520579173961036
+ The Average L1 distance (mean |dx|+|dy|) =  1.9558760363051733
