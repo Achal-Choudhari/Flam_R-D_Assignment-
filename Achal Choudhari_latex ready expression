@@ -1,0 +1,6 @@
+ The LaTeX-ready expressions:
+\begin{aligned}
+x(t) &= t\cos(\theta) - e^{M|t|}\sin(0.3t)\sin(\theta) + X\\
+y(t) &= 42 + t\sin(\theta) + e^{M|t|}\sin(0.3t)\cos(\theta)\\
+\theta &= 0.484353\ \mathrm{rad}\ = 27.751400^\circ,\quad M=0.025206,\quad X=52.803899
+\end{aligned}
