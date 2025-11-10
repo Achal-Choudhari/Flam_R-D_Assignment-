@@ -1,0 +1,12 @@
+In this assignment, I analyzed a dataset containing x–y coordinates of a motion trajectory.
+The main goal was to estimate parameters that describe the motion model and to measure how well the predicted curve matches the observed data.
+
+I first loaded and visualized the dataset to understand the overall trend. Then, I performed a linear regression between x and y to find the slope and intercept, which gave the orientation angle (θ) of the motion. Using this fitted line, I computed the residuals, representing the deviation of the data from the linear path.
+
+Next, I analyzed the residuals to identify an exponential behavior and estimated the parameter M, which controls how the motion amplitude changes over time. The offset X was also determined based on the geometric position of the fitted line.
+
+After estimating these parameters, I reconstructed the motion using parametric equations for x(t) and y(t). The predicted model was then compared with the actual data, and the L1 distance (≈ 1.96) was calculated to quantify the accuracy of the fit. Finally, I visualized both curves to confirm that the model closely follows the data trend.
+
+Through this process, I obtained a consistent set of parameters —
+θ = 27.75°, M = 0.0252, X = 52.80 — which effectively describe the observed motion.
+The workflow demonstrates a complete approach to model fitting, parameter estimation, and result evaluation using Python.
